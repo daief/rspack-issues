@@ -1,0 +1,16 @@
+{
+  "name": "depend-on",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build:rspack && yarn build:webpack",
+    "build:rspack": "rspack build -c config.js",
+    "build:webpack": "webpack build -c config.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "pkg-a": "1.0.0",
+    "pkg-b": "1.0.0",
+    "pkg-c": "1.0.0"
+  }
+}
