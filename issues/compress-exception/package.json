@@ -1,0 +1,11 @@
+{
+  "name": "compress-exception",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "rspack build -c config.js"
+  },
+  "dependencies": {
+    "@muya-ui/core": "^0.4.154"
+  }
+}
