@@ -5722,7 +5722,7 @@ var globalHandle;
                   (A = j + 1),
                   (W = function () {
                     for (var e = 0, t = E.length; e < t; e++) {
-                      var r = itemOffsets[e];
+                      var r = E[e];
                       if (r === P) {
                         (A = (j = e) + 1), (H = j - 1);
                         break;
@@ -5756,7 +5756,7 @@ var globalHandle;
                       W();
                   }),
                   (q = function () {
-                    (H = j - 1), (A = j + 1), (P = itemOffsets[j]), N();
+                    (H = j - 1), (A = j + 1), (P = E[j]), N();
                   }),
                   D(),
                   (z.current = {
@@ -5773,10 +5773,10 @@ var globalHandle;
                       return void 0 !== n[_];
                     },
                     get hasNextItem() {
-                      return void 0 !== itemOffsets[A];
+                      return void 0 !== E[A];
                     },
                     get hasPrevItem() {
-                      return void 0 !== itemOffsets[H];
+                      return void 0 !== E[H];
                     },
                     get size() {
                       return n.length;
@@ -5812,13 +5812,13 @@ var globalHandle;
                       this.hasStep(e) && ((M = e), D());
                     },
                     hasItem: function (e) {
-                      return void 0 !== itemOffsets[e];
+                      return void 0 !== E[e];
                     },
                     hasStep: function (e) {
                       return void 0 !== n[e];
                     },
                     getItemOffset: function (e) {
-                      return itemOffsets[e];
+                      return E[e];
                     },
                     getItemStep: function (e) {
                       return o[e] || 0;
