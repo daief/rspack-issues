@@ -1,32 +1,6 @@
 (() => { // webpackBootstrap
 "use strict";
-var __webpack_modules__ = ({
-426: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-__webpack_require__.d(__webpack_exports__, {
-  q: () => (funa)
-});
-const r = Math.trunc(Math.random() * 10);
-
-const funa = (a) => {
-    return `funa_____${r}_____${a}`;
-};
-
-
-}),
-744: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-__webpack_require__.d(__webpack_exports__, {
-  k: () => (funb)
-});
-const r = Math.trunc(Math.random() * 10);
-
-const funb = (a) => {
-    return `funb_____${r}_____${a}`;
-};
-
-
-}),
-
-});
+var __webpack_modules__ = ({});
 /************************************************************************/
 // The module cache
 var __webpack_module_cache__ = {};
@@ -169,14 +143,8 @@ __webpack_require__.ruid = "bundler=rspack@1.4.4";
 })();
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
-(() => {
-/* ESM import */var pkg_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(426);
-/* ESM import */var pkg_b__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(744);
 
 
-
-})();
 
 __webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 })()
