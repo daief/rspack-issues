@@ -2,21 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 519:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   P: () => (/* binding */ func)
-/* harmony export */ });
-const r = Math.trunc(Math.random() * 10);
-
-const func = (a) => {
-    return `func_____${r}_____${a}`;
-};
-
-
-/***/ }),
-
 /***/ 593:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -195,7 +180,6 @@ const funb = (a) => {
 var __webpack_exports__ = {};
 /* harmony import */ var pkg_a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(593);
 /* harmony import */ var pkg_b__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(840);
-/* harmony import */ var pkg_c__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(519);
 
 
 
