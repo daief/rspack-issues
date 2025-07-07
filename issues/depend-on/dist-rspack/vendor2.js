@@ -17331,7 +17331,7 @@ __webpack_require__.O = (result, chunkIds, fn, priority) => {
 })();
 // webpack/runtime/rspack_version
 (() => {
-__webpack_require__.rv = () => ("1.3.8")
+__webpack_require__.rv = () => ("1.4.4")
 })();
 // webpack/runtime/jsonp_chunk_loading
 (() => {
@@ -17376,7 +17376,7 @@ chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.pus
 })();
 // webpack/runtime/rspack_unique_id
 (() => {
-__webpack_require__.ruid = "bundler=rspack@1.3.8";
+__webpack_require__.ruid = "bundler=rspack@1.4.4";
 
 })();
 /************************************************************************/

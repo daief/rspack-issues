@@ -16,6 +16,10 @@ module.exports = {
       import: './src/app.js',
       dependOn: ['vendor1', 'vendor2'],
     },
+    app2: {
+      import: './src/app2.js',
+      dependOn: ['vendor1', 'vendor2'],
+    },
   },
   output: {
     clean: true,
