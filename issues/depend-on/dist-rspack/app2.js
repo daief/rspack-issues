@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkdepend_on"] = self["webpackChunkdepend_on"] || []).push([["387"], {
-672: (function (__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
+(self["webpackChunkdepend_on"] = self["webpackChunkdepend_on"] || []).push([["946"], {
+353: (function (__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 /* ESM import */var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(635);
 /* ESM import */var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* ESM import */var pkg_a__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(426);
@@ -13,7 +13,7 @@
 
 // run
 console.log((0,pkg_a__WEBPACK_IMPORTED_MODULE_1__/* .funa */.q)(1), (0,pkg_b__WEBPACK_IMPORTED_MODULE_2__/* .funb */.k)(2), (0,pkg_c__WEBPACK_IMPORTED_MODULE_3__/* .func */.Y)(3));
-console.log('lodash random', lodash__WEBPACK_IMPORTED_MODULE_0___default().random());
+console.log('app 2lodash random', lodash__WEBPACK_IMPORTED_MODULE_0___default().random());
 
 
 }),
@@ -21,7 +21,7 @@ console.log('lodash random', lodash__WEBPACK_IMPORTED_MODULE_0___default().rando
 },function(__webpack_require__) {
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId) }
 __webpack_require__.O(0, ["293",], function() {
-        return __webpack_exec__(672);
+        return __webpack_exec__(353);
       });
 var __webpack_exports__ = __webpack_require__.O();
 
