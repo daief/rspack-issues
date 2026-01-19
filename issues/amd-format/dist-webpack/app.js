@@ -299,8 +299,8 @@ window.define = () => {
 };
 window.define.amd = {};
 
-__webpack_require__.e(/* import() | test-amd-pkg */ 259).then(__webpack_require__.t.bind(__webpack_require__, 938, 23)).then((xx) => {
-  console.log('🚀 ~ app.js ~ xx:', xx);
+__webpack_require__.e(/* import() | test-amd-pkg */ 259).then(__webpack_require__.t.bind(__webpack_require__, 938, 23)).then((mod) => {
+  console.log('🚀 ~ app.js ~ test-amd-pkg:', mod.foo);
 });
 
 /******/ })()
