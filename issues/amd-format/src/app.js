@@ -1,3 +1,4 @@
+// mock amd define
 window.define = () => {
   console.log('🚀 ~ app.js ~ define');
 };
