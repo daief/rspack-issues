@@ -1,0 +1,13 @@
+{
+  "name": "amd-format",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build:rspack && yarn build:webpack",
+    "build:rspack": "rspack build -c config.js",
+    "build:webpack": "webpack build -c config.js"
+  },
+  "dependencies": {
+    "test-amd-pkg": "file:./test-amd-pkg"
+  }
+}
